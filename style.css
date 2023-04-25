@@ -9,7 +9,6 @@
 
 body {
   font-family: 'Karla', sans-serif;
-  min-height: 80vh;
   background-color: #D5D4D8;
 }
 
@@ -25,12 +24,16 @@ h1 {
 
 .container {
   background-color: #1F2937;
-  padding: 2em 1em;
+  padding: 4em 1em;
   width: 70%;
   max-width: 700px;
-  margin: 2em auto;
+  margin:  2em auto;
   border: 5px solid #D5D4D8;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-height: 80vh;
 }
 
 
@@ -38,7 +41,7 @@ h1 {
   font-size: 1em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #D5D4D8;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
 }
 
 
@@ -47,7 +50,7 @@ h1 {
 }
 
 .button {
- padding-bottom: 1.8em;
+ padding-bottom: 1em;
 }
 
 .btn {
@@ -94,7 +97,7 @@ btn:focus {
   }
 
   .subtitle {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
   }
 
   .flex {
